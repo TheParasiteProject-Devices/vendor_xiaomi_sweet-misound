@@ -30,7 +30,8 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.vendor.dolby.dax.version=DAX3_3.6.1.6_r1 \
     ro.vendor.audio.dolby.dax.support=true \
     ro.vendor.audio.dolby.dax.version=DAX3_3.6 \
-    vendor.audio.dolby.ds2.enabled=true
+    vendor.audio.dolby.ds2.enabled=true \
+    vendor.audio.dolby.ds2.hardbypass=false
 # }}}
 
 $(call inherit-product, vendor/xiaomi/sweet-misound/common/common-vendor.mk)
