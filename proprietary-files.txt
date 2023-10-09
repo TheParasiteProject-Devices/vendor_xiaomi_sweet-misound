@@ -1,7 +1,7 @@
 # All unpinned blobs below are extracted from miui_SWEETININGlobal_V14.0.1.0.TKFINXM_022ce09a45_13.0
 
 # Mi Sound - modified
-system_ext/priv-app/MiSound/MiSound.apk|2633c8d788fa02d99ae2781fecc620d9758924d5
+system_ext/priv-app/MiSound/MiSound.apk;OVERRIDES=MusicFX,AudioFX|2633c8d788fa02d99ae2781fecc620d9758924d5
 system_ext/priv-app/MiSound/lib/arm64/libmiuiblursdk.so|28c358508a3b554ef79df2861c0f4ff65a314376
 system_ext/priv-app/MiSound/lib/arm64/libmp3lame.so|b5639b36aab2c94eca7b0fab97aaf5e992347668
 system_ext/priv-app/MiSound/lib/arm64/libnative-lib.so|e91ad4447f886c70bfa3f36bafe2c6750d56df41
