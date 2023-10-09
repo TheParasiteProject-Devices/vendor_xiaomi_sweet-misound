@@ -13,4 +13,7 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
 # Sepolicy
 BOARD_SEPOLICY_DIRS += $(MISOUND_PATH)/sepolicy
 
+# Audio
+AUDIO_FEATURE_ENABLED_DS2_DOLBY_DAP := true
+
 include vendor/xiaomi/sweet-misound/common/BoardConfigVendor.mk

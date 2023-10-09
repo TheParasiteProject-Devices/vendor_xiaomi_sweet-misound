@@ -29,3 +29,17 @@ vendor/lib/libstagefrightdolby.so
 
 # Dolby (Sound FX) - from rhode S1SR32.38-124-3
 vendor/lib/soundfx/libswdap.so|810d0e266e4a77f06cba72fe8bdde2e1ede4f9f9
+
+# Audio (FX modules) 
+vendor/lib/soundfx/libmisoundfx.so
+
+# ADSP-Modules
+vendor/lib/rfsa/adsp/misound_karaoke_res.bin
+vendor/lib/rfsa/adsp/misound_karaokemix_res.bin
+vendor/lib/rfsa/adsp/misound_res.bin
+vendor/lib/rfsa/adsp/misound_res_headphone.bin
+vendor/lib/rfsa/adsp/misound_res_spk.bin
+
+# ADSP-Modules (Dirac)
+vendor/lib/rfsa/adsp/dirac_resource.dar
+vendor/lib/rfsa/adsp/libdirac-capiv2.so
