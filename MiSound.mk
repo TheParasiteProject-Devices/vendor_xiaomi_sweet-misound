@@ -13,7 +13,8 @@ TARGET_EXCLUDES_AUDIOFX := true
 
 # Permissions & Sysconfig
 PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/,$(TARGET_COPY_OUT_SYSTEM_EXT)/etc)
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/system_ext/,$(TARGET_COPY_OUT_SYSTEM_EXT)/etc) \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/vendor/,$(TARGET_COPY_OUT_VENDOR)/etc) \
 
 # Properties {{{
 PRODUCT_VENDOR_PROPERTIES += \

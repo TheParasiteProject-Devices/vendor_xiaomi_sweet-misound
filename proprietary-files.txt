@@ -8,7 +8,6 @@ system_ext/priv-app/MiSound/lib/arm64/libnative-lib.so|e91ad4447f886c70bfa3f36ba
 
 # dax Service - from sweetin-user 12 SKQ1.210908.001 V13.0.10.0.SKFINXM release-keys
 system_ext/priv-app/daxService/daxService.apk|18d33eacf5786a6362b897a6d46bdc23485ba8a2
-vendor/etc/dolby/dax-default.xml|66ee4e02ee16a89fe54ac5165792233531610537
 
 # Dolby (DMS)
 vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service
