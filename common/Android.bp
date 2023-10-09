@@ -9,6 +9,7 @@ android_app_import {
 	name: "MiSound",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/priv-app/MiSound/MiSound.apk",
+	overrides: ["MusicFX", "AudioFX"],
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
